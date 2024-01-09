@@ -8,6 +8,6 @@ int main() {
     a = 97;
     b = 13;
     d = a - b;
-    cout << a << ' - ' << b << ' = ' << d;
+    cout << a << " - " << b << " = " << d;
     return 0;
 }
