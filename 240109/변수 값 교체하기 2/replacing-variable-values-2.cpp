@@ -5,6 +5,6 @@ int main() {
     int a, b;
     a = 5, b = 3;
     a = b;
-    std::cout << a << endl << b;
+    std::cout << a << std::endl << b;
     return 0;
 }
