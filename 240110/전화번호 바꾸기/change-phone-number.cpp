@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main() {
@@ -11,7 +12,7 @@ int main() {
     cin >> z;
     cin.get();
 
-    cout << x << "-" << z << "-" << y;
+    cout << 0 << x << "-" << z << "-" << y;
 
     return 0;
 }
