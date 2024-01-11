@@ -10,9 +10,9 @@ int main() {
         cout << a - b;
     }
 
-    if (a < b) {
+    if (a <= b) {
         cout << b - a;
     }
-    
+
     return 0;
 }
