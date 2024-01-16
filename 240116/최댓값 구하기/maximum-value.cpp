@@ -15,9 +15,20 @@ int main() {
     else if ((c > a) && (c > b)) {
         cout << c;
     }
+    // 적어도 하나는 같다.
     else {
-        cout << a;
+        if (a == b) {
+            if (a == c) {
+                cout << a;
+            }
+            else if (a > c) {
+                cout << a;
+            }
+            else {
+                cout << c;
+            }
+        }
     }
-    
+
     return 0;
 }
