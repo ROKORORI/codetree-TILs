@@ -6,17 +6,27 @@ int main() {
     int n;
     cin >> n;
 
-    if (n % 2 == 0) {
-        if (n == 2) {
-            cout << 28;
+    if (n <= 6) { 
+        if (n % 2 == 0) {
+            if (n == 2) {
+                cout << 28;
+            }
+            else {
+                cout << 30;
+            }
         }
         else {
-            cout << 30;
+            cout << 31;
         }
     }
     
     else {
-        cout << 31;
+        if (n % 2 == 0) {
+            cout << 31;
+        }
+        else {
+            cout << 30;
+        }
     }
     
     return 0;
