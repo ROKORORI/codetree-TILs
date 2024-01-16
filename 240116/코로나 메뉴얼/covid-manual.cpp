@@ -5,7 +5,11 @@ using namespace std;
 int main() {
     // 여기에 코드를 작성해주세요.
     string a_c, b_c, c_c;
-    int a_t, b_t, c_t, cnt;
+    int a_t, b_t, c_t, cnt = 0;
+    
+    cin >> a_c >> a_t;
+    cin >> b_c >> b_t;
+    cin >> c_c >> c_t;
 
     if ((a_c == "Y") && (a_t >= 37)) {
         cnt += 1;
