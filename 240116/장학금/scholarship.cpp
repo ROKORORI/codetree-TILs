@@ -12,14 +12,14 @@ int main() {
             cout << 0;
         }
         else if (l_s < 95) {
-            cout << 5;
+            cout << 50000;
         }
         else {
-            cout << 10;
+            cout << 100000;
         }
 
     }
-    
+
     else {
         cout << 0;
     }
