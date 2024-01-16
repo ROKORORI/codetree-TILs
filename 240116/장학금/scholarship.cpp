@@ -8,20 +8,21 @@ int main() {
 
     if (m_s >= 90) {
 
-        if (l_s >= 95) {
-            cout << 10;
+        if (l_s < 90) {
+            cout << 0;
         }
-        else if (l_s >= 90) {
+        else if (l_s < 95) {
             cout << 5;
         }
         else {
-            cout << 0;
+            cout << 10;
         }
 
     }
+    
     else {
         cout << 0;
     }
-    
+
     return 0;
 }
