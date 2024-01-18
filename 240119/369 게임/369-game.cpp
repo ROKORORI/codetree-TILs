@@ -16,14 +16,13 @@ int main() {
             string j = to_string(i);
             
             for (int k = 0; k < j.length(); k++) {
-                string l = to_string((int)j[k]);
-                if (l == "3") {
+                if (j.substr(k, 1) == "3") {
                     check = 0;
                 }
-                else if (l == "6") {
+                else if (j.substr(k, 1) == "6") {
                     check = 0;
                 }
-                else if (l == "9") {
+                else if (j.substr(k, 1) == "9") {
                     check = 0;
                 }
             }
