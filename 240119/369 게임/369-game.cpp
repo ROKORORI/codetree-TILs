@@ -14,8 +14,9 @@ int main() {
         else {
             int check = 1;
             string j = to_string(i);
+            
             for (int k = 0; k < j.length(); k++) {
-                string l = to_string(j[k]);
+                string l = to_string(str.at(j[k]));
                 if (l == "3") {
                     check = 0;
                 }
