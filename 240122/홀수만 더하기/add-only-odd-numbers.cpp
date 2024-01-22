@@ -8,9 +8,11 @@ int main() {
     int n;
     cin >> n;
 
-    for (i = 0; i < n; i++){
-        if ((i % 2 == 1) && (i % 3 == 0)){
-            sum += i;
+    for (int i = 0; i < n; i++) {
+        int a;
+        cin >> a;
+        if ((a % 2 == 1) && (a % 3 == 0)){
+            sum += a;
         }
     }
 
