@@ -7,15 +7,17 @@ int main() {
     cin >> a >> b;
     sum = 0, cnt = 0;
 
-    for (int i = a; a <= b; i++) {
-        if ((i % 5 == 0) || (i % 7 == 0)) {
+    while (a <= b) {
+        if ((a % 5 == 0) || (a % 7 == 0)) {
             cnt += 1;
-            sum += i;
+            sum += a;
         }
+
+        a++;
     }
 
     cout << fixed;
     cout.precision(1);
-    cout << sum << " " << (double)(sum / cnt);
+    cout << sum << " " << (double)sum / cnt;
     return 0;
 }
