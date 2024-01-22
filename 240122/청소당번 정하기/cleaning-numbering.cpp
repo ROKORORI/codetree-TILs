@@ -8,7 +8,7 @@ int main() {
 
     cin >> d;
 
-    for (int i = 1; i < d; i++) {
+    for (int i = 1; i <= d; i++) {
         if (i % 12 == 0) {
             r += 1;
         }
