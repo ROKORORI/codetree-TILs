@@ -13,19 +13,39 @@ int main() {
             }
             else {
                 if (i % 2 == 0) {
-                    if (j % 2 == 0) {
-                        cout << "*";
+                    if (n % 2 == 0) {
+                        if (j % 2 == 0) {
+                            cout << " ";
+                        }
+                        else {
+                            cout << "*";
+                        }
                     }
                     else {
-                        cout << " ";
+                        if (j % 2 == 0) {
+                            cout << "*";
+                        }
+                        else {
+                            cout << " ";
+                        }
                     }
                 }
                 else {
-                    if (j % 2 == 0) {
-                        cout << " ";
+                    if (n % 2 == 0) {
+                        if (j % 2 == 0) {
+                            cout << "*";
+                        }
+                        else {
+                            cout << " ";
+                        }
                     }
                     else {
-                        cout << "*";
+                        if (j % 2 == 0) {
+                            cout << " ";
+                        }
+                        else {
+                            cout << "*";
+                        }
                     }
                 }
             }
@@ -40,19 +60,39 @@ int main() {
             }
             else {
                 if (i % 2 == 0) {
-                    if (j % 2 == 0) {
-                        cout << " ";
+                    if (n % 2 == 0) {
+                        if (j % 2 == 0) {
+                            cout << " ";
+                        }
+                        else {
+                            cout << "*";
+                        }
                     }
                     else {
-                        cout << "*";
+                        if (j % 2 == 0) {
+                            cout << " ";
+                        }
+                        else {
+                            cout << "*";
+                        }
                     }
                 }
                 else {
-                    if (j % 2 == 0) {
-                        cout << "*";
+                    if (n % 2 == 0) {
+                        if (j % 2 == 0) {
+                            cout << "*";
+                        }
+                        else {
+                            cout << " ";
+                        }
                     }
                     else {
-                        cout << " ";
+                        if (j % 2 == 0) {
+                            cout << "*";
+                        }
+                        else {
+                            cout << " ";
+                        }
                     }
                 }
             }
