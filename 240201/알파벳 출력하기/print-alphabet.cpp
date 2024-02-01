@@ -15,9 +15,6 @@ int main() {
             else {
                 cnt++;
             }
-            if ((char)cnt == 'Z') {
-                cnt = 65;
-            }
         }
         cout << endl;
     }
