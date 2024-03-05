@@ -15,6 +15,9 @@ int main() {
             }
             idx += 1;
         }
+        else {
+            break;
+        }
     }
     
     for (int i = 0; i < idx; i++) {
