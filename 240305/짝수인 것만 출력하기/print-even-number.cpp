@@ -19,8 +19,8 @@ int main() {
     }
 
     for (int i = 0; i < idx; i++) {
-        std::cout << new_arr[i];
+        std::cout << new_arr[i] << " ";
     }
-    
+
     return 0;
 }
